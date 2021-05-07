@@ -23,6 +23,8 @@ export default class Recorder {
 
 	startRecording(stream) {
 		const options = this._setup();
+		this.recordedBlobs = [];
+
 		this.mediaRecorder = new MediaRecorder(stream, options);
 
 		this.mediaRecorder.onstop = (event) => {
