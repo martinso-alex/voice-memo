@@ -1,4 +1,6 @@
-# Voice Memo App Using HTML5, Media Recorder and getUserMedia APIs
+# Voice Memo App
+
+App constructed following [Erick Wendel's tutorial](https://youtu.be/Pd_LS7p_BX4)
 
 ## Running
 
@@ -7,7 +9,6 @@
 ## Demo
 
 - When you click start recording it'll record your voice and then play it .
-
 
 ## Credits
 
